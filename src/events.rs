@@ -204,7 +204,7 @@ pub enum Event {
         user: String,
         reaction: String,
         item: Box<reactions::ListResponseItem>,
-        item_user: String,
+        item_user: Option<String>,
         event_ts: String,
     },
     /// Represents the slack
@@ -213,7 +213,7 @@ pub enum Event {
         user: String,
         reaction: String,
         item: Box<reactions::ListResponseItem>,
-        item_user: String,
+        item_user: Option<String>,
         event_ts: String,
     },
     /// Represents the slack

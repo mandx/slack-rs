@@ -15,3 +15,6 @@ serde_json = "1.0.0"
 serde_derive = "1.0.0"
 tungstenite = "0.6"
 log = "0.3.7"
+
+[patch.crates-io]
+slack_api = { git = 'https://github.com/mandx/slack-rs-api.git', branch = 'reaction-deserialization' }
